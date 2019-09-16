@@ -86,3 +86,24 @@ h2 {
   padding: 0;
   margin: 0;
 }
+/* button  */
+
+.section-content {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.section-button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: none;
+  background-color: rgb(218, 218, 218);
+  color: rgb(13, 13, 13);
+  padding: 10px;
+}
+
+.section-button:hover {
+  background-color: transparent;
+  color: rgb(243, 188, 52);
+}
